@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://magimirvietnam.bduck.vn/sitemap.xml
