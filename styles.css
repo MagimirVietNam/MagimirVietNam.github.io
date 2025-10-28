@@ -1633,4 +1633,19 @@ body {
   }
 }
 
+/* ===== Làm chữ "Đại lý chính thức — Huỳnh Lập Đông" to và sáng ===== */
+.brand-text small {
+  font-size: 1.2rem !important;   /* to lên rõ hơn */
+  color: rgba(255, 255, 255, 0.95);
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 0.25rem;
+}
+
+/* Nếu bạn muốn tên "Huỳnh Lập Đông" nổi bật hơn */
+.brand-text small strong {
+  color: #66ccff;
+  font-weight: 700;
+}
+
 
