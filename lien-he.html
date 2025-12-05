@@ -1,28 +1,557 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1280, user-scalable=yes" />
+  <title>MagiMir Việt Nam — Đại lý chính thức</title>
 
-  <title>Liên hệ MagiMir Việt Nam — Hỗ trợ đại lý và khách hàng</title>
+  <meta name="description" content="MagiMir Việt Nam - Đại lý chính thức. Giải pháp chỉnh ảnh tự động, tiết kiệm thời gian cho studio và nhiếp ảnh gia 1 năm chỉ 1.500.000 xuất ảnh không giới hạn. Liên hệ: 0398 903 851" />
+  <meta name="application-name" content="MagiMir Việt Nam" />
+  <meta name="robots" content="index, follow" />
 
-  <meta name="description" content="Liên hệ MagiMir Việt Nam để được tư vấn, hỗ trợ kỹ thuật hoặc đăng ký làm đại lý phần mềm chỉnh ảnh AI chính hãng." />
+  <!-- Canonical (đảm bảo Google biết URL chính của trang) -->
+  <link rel="canonical" href="https://magimirvietnam.bduck.vn/" />
 
-  <meta name="keywords" content="Liên hệ MagiMir, hỗ trợ MagiMir Việt Nam, đại lý phần mềm chỉnh ảnh, MagiMir hỗ trợ kỹ thuật" />
+  <!-- Open Graph -->
+  <meta property="og:site_name" content="MagiMir Việt Nam" />
+  <meta property="og:title" content="MagiMir Việt Nam — Đại lý chính thức" />
+  <meta property="og:description" content="Giải pháp retouch & tối ưu ảnh hàng loạt cho studio. Liên hệ: 0398 903 851" />
+  <meta property="og:image" content="https://magimirvietnam.bduck.vn/assets/hero.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://magimirvietnam.bduck.vn/" />
 
-  <meta property="og:title" content="Liên hệ MagiMir Việt Nam — Hỗ trợ đại lý và khách hàng" />
-  <meta property="og:description" content="Kênh hỗ trợ chính thức của MagiMir Việt Nam. Chúng tôi luôn sẵn sàng tư vấn và đồng hành cùng bạn." />
-  <meta property="og:image" content="https://magimirvietnam.bduck.vn/assets/magimir-thumbnail.jpg" />
-  <meta property="og:url" content="https://magimirvietnam.bduck.vn/lien-he.html" />
-  <meta property="og:type" content="article" />
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="MagiMir Việt Nam — Đại lý chính thức" />
+  <meta name="twitter:description" content="Giải pháp retouch & tối ưu ảnh hàng loạt cho studio. Liên hệ: 0398 903 851" />
+  <meta name="twitter:image" content="https://magimirvietnam.bduck.vn/assets/hero.jpg" />
 
-  <link rel="icon" href="https://magimirvietnam.bduck.vn/assets/favicon.png" type="image/png" />
+  <!-- Structured data (JSON-LD) - Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "MagiMir Việt Nam",
+    "url": "https://magimirvietnam.bduck.vn/",
+    "logo": "https://magimirvietnam.bduck.vn/assets/logo-icon.png",
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "telephone": "+84-398-903-851",
+      "contactType": "customer service",
+      "areaServed": "VN",
+      "availableLanguage": ["Vietnamese"]
+    }],
+    "sameAs": [
+      "https://www.facebook.com/HuynhLapDongHaicaoyunMagimir",
+      "https://m.me/HuynhLapDongHaicaoyunMagimir"
+    ]
+  }
+  </script>
+
+  <!-- Structured data (JSON-LD) - WebSite -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Magimir Việt Nam",
+  "alternateName": "MagimirVN",
+  "url": "https://magimirvietnam.bduck.vn/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Magimir Việt Nam",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://magimirvietnam.bduck.vn/assets/logo-icon.png"
+    }
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://magimirvietnam.bduck.vn/?s={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+  <!-- Structured data (JSON-LD) - Official Entity Recognition -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Magimir Việt Nam",
+  "alternateName": "MagimirVN",
+  "url": "https://magimirvietnam.bduck.vn/",
+  "logo": "https://magimirvietnam.bduck.vn/assets/logo-icon.png",
+  "founder": {
+    "@type": "Person",
+    "name": "Huỳnh Lập Đông"
+  },
+  "sameAs": [
+    "https://www.facebook.com/HuynhLapDongHaicaoyunMagimir",
+    "https://www.tiktok.com/@magimirviet"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+84-398-903-851",
+    "contactType": "customer service",
+    "areaServed": "VN",
+    "availableLanguage": "Vietnamese"
+  }
+}
+</script>
+
+  <!-- Icons & styles -->
+  <link rel="icon" href="https://magimirvietnam.bduck.vn/assets/logo-icon.png" type="image/png" />
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <h1>Liên hệ Magimir Việt Nam</h1>
-  <p>📍 Địa chỉ: TP. Hồ Chí Minh, Việt Nam</p>
-  <p>📞 Hotline: 0398 903 851</p>
-  <p>🌐 Website: <a href="https://magimirvietnam.bduck.vn">magimirvietnam.bduck.vn</a></p>
+  
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="assets/logo.png" alt="MagiMir Việt Nam" class="logo" />
+        <div class="brand-text">
+           <span class="brand-title">MagiMir Việt Nam</span><br>
+           <small>Đại lý chính thức — Huỳnh Lập Đông</small>
+        </div>
+      </div>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="#features">Tính năng</a>
+        <a href="#portfolio">Before After</a>
+        <a href="#pricing">Giá</a>
+        <a href="#faq">Câu hỏi</a>
+        <a href="#contact">Liên hệ</a>
+       <a href="https://drive.google.com/drive/folders/1vfGSaK7pXl9ZJu9132DEKPxnycRZl6bU" class="cta-btn" id="downloadBtn" target="_blank" rel="noopener noreferrer">
+  Tải xuống miễn phí
+</a>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Mở menu">☰</button>
+    </div>
+
+<!-- Popup thông báo dùng thử -->
+<div id="trialPopup" class="popup-overlay">
+  <div class="popup-box">
+    <p>💬 Liên hệ đại lý <strong>Huỳnh Lập Đông</strong><br>
+    để được hỗ trợ cài đặt và hướng dẫn sử dụng.</p>
+    <button id="closePopup" class="popup-btn">Đóng</button>
+  </div>
+</div>
+
+<!-- ===== HERO ===== -->
+<section class="hero-section">
+  <div class="hero container">
+    <div class="hero-left">
+      <h1>MagiMir Việt Nam Chỉnh ảnh tự động, tiết kiệm thời gian cho studio</h1>
+      <p class="lead">
+        MagiMir là giải pháp retouch &amp; tối ưu ảnh hàng loạt, giảm công việc lặp đi lặp lại, giúp studio tập trung sáng tạo.
+      </p>
+
+      <div class="hero-ctas">
+        <a 
+          href="https://m.me/HuynhLapDongHaicaoyunMagimir" 
+          target="_blank" 
+          class="btn btn-primary">
+          Mua ngay  1.500.000₫ / năm
+        </a>
+
+       <a href="#"
+   class="btn btn-trial"
+   id="trialBtn"
+   role="button">
+   Dùng thử miễn phí
+</a>
+
+      </div>
+
+      <ul class="highlights">
+        <li>Hỗ trợ xử lý batch, tiết kiệm thời gian</li>
+        <li>Chức năng làm đẹp da tự động, sửa nền, xóa khuyết điểm</li>
+        <li>Giao diện thân thiện, dễ dùng cho studio</li>
+      </ul>
+
+      <div class="agency-note">
+        <strong>Đại lý Việt Nam:</strong> Huỳnh Lập Đông — Liên hệ: 
+        <a href="tel:0398903851">0398 903 851</a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-image">
+        <img src="assets/hero.jpg" alt="MagiMir Preview" loading="lazy" />
+      </div>
+    </div>
+  </div>
+</section>
+
+   <!-- ===== MAIN CONTENT ===== -->
+  <main>
+
+    <!-- Tính năng chạy ngang tự động -->
+<section id="features" class="section">
+  <h2>Những tính năng nổi bật</h2>
+
+  <div class="features-slider">
+    <div class="slider-track">
+      <div class="feature-card">
+        <img src="assets/feature1.jpg" alt="Làm mịn da" />
+        <h3>Làm mịn da & Retouch nhanh</h3>
+        <p>Tự động nhận diện và làm đẹp da, giữ kết cấu tự nhiên.</p>
+      </div>
+      <div class="feature-card">
+        <img src="assets/feature2.jpg" alt="Sửa nền" />
+        <h3>Sửa nền & thay background</h3>
+        <p>Thay nền, chỉnh màu, xóa chi tiết không mong muốn.</p>
+      </div>
+      <div class="feature-card">
+        <img src="assets/feature3.jpg" alt="Batch" />
+        <h3>Xử lý hàng loạt (Batch)</h3>
+        <p>Tự động áp dụng preset, tiết kiệm thời gian cho studio.</p>
+      </div>
+      <div class="feature-card">
+        <img src="assets/feature4.jpg" alt="AI Retouch" />
+        <h3>AI Retouch thông minh</h3>
+        <p>Tối ưu khuôn mặt, ánh sáng và màu sắc tự động.</p>
+      </div>
+      <div class="feature-card">
+        <img src="assets/feature5.jpg" alt="Cân bằng sáng" />
+        <h3>Tự động cân bằng sáng</h3>
+        <p>Giúp ảnh có ánh sáng tự nhiên và đồng đều hơn.</p>
+      </div>
+
+      <!-- Sao chép thêm lần nữa để tạo hiệu ứng cuộn liên tục -->
+      <div class="feature-card">
+        <img src="assets/feature1.jpg" alt="Làm mịn da" />
+        <h3>Làm mịn da & Retouch nhanh</h3>
+        <p>Tự động nhận diện và làm đẹp da, giữ kết cấu tự nhiên.</p>
+      </div>
+      <div class="feature-card">
+        <img src="assets/feature2.jpg" alt="Sửa nền" />
+        <h3>Sửa nền & thay background</h3>
+        <p>Thay nền, chỉnh màu, xóa chi tiết không mong muốn.</p>
+      </div>
+      <div class="feature-card">
+        <img src="assets/feature3.jpg" alt="Batch" />
+        <h3>Xử lý hàng loạt (Batch)</h3>
+        <p>Tự động áp dụng preset, tiết kiệm thời gian cho studio.</p>
+      </div>
+      <div class="feature-card">
+        <img src="assets/feature4.jpg" alt="AI Retouch" />
+        <h3>AI Retouch thông minh</h3>
+        <p>Tối ưu khuôn mặt, ánh sáng và màu sắc tự động.</p>
+      </div>
+      <div class="feature-card">
+        <img src="assets/feature5.jpg" alt="Cân bằng sáng" />
+        <h3>Tự động cân bằng sáng</h3>
+        <p>Giúp ảnh có ánh sáng tự nhiên và đồng đều hơn.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Section: Vô số mẫu màu có sẵn ===== -->
+<section class="preset-section">
+  
+    <h2>Vô số mẫu màu có sẵn, hỗ trợ nhiều bối cảnh, dễ dàng xuất ảnh</h2>
+    <p class="subtitle">
+      Vô số mẫu màu có sẵn sử dụng ngay, đã bao phủ các phong cách màu chính cho nhiều bối cảnh chụp ảnh thương mại
+    </p>
+
+    <div class="preset-grid">
+      <div class="preset-card">
+        <img src="assets/preset-cuoi.jpg" alt="Preset Cưới" />
+        <h4>Studio</h4>
+      </div>
+      <div class="preset-card">
+        <img src="assets/preset-dulich.jpg" alt="Preset Du lịch" />
+        <h4>Chân Dung</h4>
+      </div>
+      <div class="preset-card">
+        <img src="assets/preset-treem.jpg" alt="Preset Trẻ em" />
+        <h4>Ngoại Cảnh</h4>
+      </div>
+      <div class="preset-card">
+        <img src="assets/preset-chandung.jpg" alt="Preset Chân dung" />
+        <h4>Trong nhà</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Sửa nền một chạm ===== -->
+<section class="feature-section">
+  <div class="container">
+    <h2>Sửa nền một chạm</h2>
+    <p class="section-subtitle">
+      Nhận diện thông minh các vấn đề phổ biến như vết bẩn lớn, đứt gãy màu sắc trên mặt đất, và loại bỏ hoặc lấp đầy khuyết điểm bằng cách kết hợp màu sắc và kết cấu xung quanh
+    </p>
+
+    <div class="before-after">
+      <div class="image-block">
+        <img src="assets/fix-bg-before.jpg" alt="Trước khi chỉnh sửa" />
+        <p class="caption">Trước khi chỉnh sửa</p>
+      </div>
+      <div class="image-block">
+        <img src="assets/fix-bg-after.jpg" alt="Sau khi chỉnh sửa" />
+        <p class="caption">Sau khi chỉnh sửa</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SỬA NẾP NHĂN QUẦN ÁO ===== -->
+<section class="feature-section" id="wrinkle-fix">
+  <div class="container text-center">
+    <h2>Sửa nếp nhăn quần áo</h2>
+    <p class="section-subtitle">
+      Dựa trên công nghệ phân đoạn quần áo chính xác, tự động nhận diện nếp gấp, nếp nhăn trên bề mặt quần áo,
+      sửa chữa thông minh bằng cách kết hợp màu sắc và kết cấu xung quanh, cải thiện dáng kể độ phẳng của quần áo
+    </p>
+
+    <div class="before-after">
+      <div class="image-block">
+        <img src="assets/wrinkle-before.jpg" alt="Trước khi chỉnh sửa" />
+        <p class="caption">Trước khi chỉnh sửa</p>
+      </div>
+      <div class="image-block">
+        <img src="assets/wrinkle-after.jpg" alt="Sau khi chỉnh sửa" />
+        <p class="caption">Sau khi chỉnh sửa</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+   <!-- Portfolio -->
+<section id="portfolio" class="section">
+  <h2 class="portfolio-title">Ví dụ Trước / Sau</h2>
+  <div class="before-after">
+    <div class="ba-column">
+      <h4>Trước</h4>
+      <img src="assets/before.jpg" alt="Before" loading="lazy" />
+    </div>
+    <div class="ba-column">
+      <h4>Sau</h4>
+      <img src="assets/after.jpg" alt="After" loading="lazy" />
+    </div>
+  </div>
+</section>
+
+<!-- ==========================
+     TẠI SAO CHỌN MAGIMIR
+========================== -->
+<section class="why-magimir section">
+  <div class="container">
+    <h2 class="section-title">Tại sao chọn <span>MagiMir?</span></h2>
+    <div class="why-grid">
+      <div class="why-item">
+        <div class="why-icon">⚙️</div>
+        <h3>Công nghệ trao quyền, chất lượng ổn định</h3>
+        <p>Công nghệ hình ảnh thông minh hàng đầu cùng máy chủ đám mây mạnh mẽ, đảm bảo hiệu quả và chất lượng đầu ra ổn định.</p>
+      </div>
+
+      <div class="why-item">
+        <div class="why-icon">👍</div>
+        <h3>Hiệu suất nhân đôi, danh tiếng tăng vọt</h3>
+        <p>Giảm hơn 50% công việc lặp lại cho biên tập viên ảnh, rút ngắn chu kỳ giao hàng, cải thiện chất lượng ảnh.</p>
+      </div>
+
+      <div class="why-item">
+        <div class="why-icon">📈</div>
+        <h3>Doanh số bán hàng thứ cấp tăng đáng kể</h3>
+        <p>Chỉnh sửa ban đầu + chọn lựa thời gian thực giúp tăng cơ hội bán hàng thứ cấp và cải thiện tỉ lệ chốt.</p>
+      </div>
+
+      <div class="why-item">
+        <div class="why-icon">💡</div>
+        <h3>Vận hành đơn giản, dễ làm quen</h3>
+        <p>Không cần kỹ năng chỉnh sửa chuyên nghiệp, người mới hoàn toàn có thể sử dụng dễ dàng.</p>
+      </div>
+
+      <div class="why-item">
+        <div class="why-icon">🛡️</div>
+        <h3>Đảm bảo dịch vụ, an toàn và đáng tin cậy</h3>
+        <p>Được hỗ trợ kỹ thuật chuyên nghiệp và chính sách bảo mật nghiêm ngặt cho dữ liệu người dùng.</p>
+      </div>
+
+      <div class="why-item">
+        <div class="why-icon">🚀</div>
+        <h3>Nâng cấp sản phẩm liên tục</h3>
+        <p>Liên tục cải thiện và cập nhật để mang đến trải nghiệm xử lý ảnh tốt nhất cho người dùng.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="section container">
+      <h2>Gói &amp; Giá</h2>
+      <p class="muted">Giá dành cho khách hàng tại Việt Nam — một năm sử dụng.</p>
+
+      <div class="pricing-grid">
+        <div class="price-card featured">
+          <h3>Gói Tiêu chuẩn — 1 Năm</h3>
+          <div class="price">1.500.000₫ <span class="per">/ năm</span></div>
+          <ul>
+            <li>Sử dụng đầy đủ tính năng retouch</li>
+            <li>Hỗ trợ cập nhật tính năng mới</li>
+            <li>Hỗ trợ kỹ thuật qua Zalo/Facebook</li>
+          </ul>
+        <a class="btn primary buy-now"
+   href="https://m.me/HuynhLapDongHaicaoyunMagimir"
+   target="_blank" rel="noopener noreferrer">
+  💬 Mua ngay trên Messenger
+</a>
+      </div>
+
+        <div class="price-card">
+          <h3>Gói Doanh nghiệp</h3>
+          <div class="price">Liên hệ để báo giá</div>
+          <ul>
+            <li>Gói số lượng lớn cho studio</li>
+            <li>Tích hợp quy trình riêng theo yêu cầu</li>
+            <li>Hỗ trợ kỹ thuật ưu tiên</li>
+          </ul>
+ <a class="btn ghost" href="https://www.facebook.com/HuynhLapDongHaicaoyunMagimir?locale=vi_VN" 
+   target="_blank" rel="noopener noreferrer">
+  Liên hệ qua Facebook
+</a>
+
+        </div>
+      </div>
+
+      <div class="price-note">
+        <small>Lưu ý: Quý khách có thể thanh toán qua chuyển khoản hoặc liên hệ trực tiếp qua Facebook.</small>
+      </div>
+    </section>
+
+    <!-- Đối tác -->
+    <section class="partners section">
+      <h2>Đối tác &amp; Khách hàng</h2>
+      <div class="partner-logos">
+        <img src="assets/partner1.png" alt="Đối tác 1" loading="lazy">
+        <img src="assets/partner2.png" alt="Đối tác 2" loading="lazy">
+        <img src="assets/partner3.png" alt="Đối tác 3" loading="lazy">
+        <img src="assets/partner4.png" alt="Đối tác 4" loading="lazy">
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section container">
+      <h2>Câu hỏi thường gặp (FAQ)</h2>
+      <div class="faq-list">
+        <details>
+          <summary>Làm sao để dùng thử?</summary>
+          <div class="faq-body">Nhấn "Dùng thử miễn phí" hoặc liên hệ qua Facebook Huỳnh Lập Đông để được cấp bản dùng thử.</div>
+        </details>
+        <details>
+          <summary>Hình thức thanh toán</summary>
+          <div class="faq-body">Chuyển khoản ngân hàng. Liên hệ Zalo: 0398903851 để nhận thông tin chi tiết.</div>
+        </details>
+        <details>
+          <summary>Có hướng dẫn sử dụng không?</summary>
+          <div class="faq-body">Có. Chúng tôi cung cấp tài liệu &amp; video hướng dẫn sử dụng cho khách hàng.</div>
+        </details>
+      </div>
+    </section>
+
+    <!-- Contact (ĐÃ GIỮ NGUYÊN) -->
+    <section id="contact" class="section container contact-section">
+      <h2>LIÊN HỆ ĐẠI LÝ - HUỲNH LẬP ĐÔNG</h2>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <p>📞 <a href="tel:0398903851">0398 903 851</a></p>
+          <p>✉️ <a href="mailto:huanglidong3008@gmail.com">huanglidong3008@gmail.com</a></p>
+          <p>🌐 Facebook: <a href="https://www.facebook.com/HuynhLapDongHaicaoyunMagimir?locale=vi_VN" target="_blank" rel="noopener noreferrer">Huỳnh Lập Đông</a></p>
+          <p>🌐 Zalo: <a href="https://zalo.me/g/qcavaa807" target="_blank" rel="noopener noreferrer">Nhóm/Zalo</a></p>
+        </div>
+
+        <div class="contact-card form-card">
+          <h3>Gửi yêu cầu</h3>
+          <form id="contactForm" action="mailto:huanglidong3008@gmail.com" method="post" enctype="text/plain">
+            <label for="c_name">Tên</label>
+            <input id="c_name" type="text" name="name" placeholder="Họ tên" required />
+            <label for="c_email">Email</label>
+            <input id="c_email" type="email" name="email" placeholder="Email của bạn" required />
+            <label for="c_msg">Nội dung</label>
+            <textarea id="c_msg" name="message" rows="4" placeholder="Nội dung..." required></textarea>
+            <button class="btn primary" type="submit">Gửi</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+<footer class="promo-footer">
+  <div class="promo-content">
+    <div class="promo-left">
+  
+      <img src="assets/logo1.png" alt="Logo" class="promo-img" />
+      <div class="promo-text">
+        <h2 class="promo-title">
+          <span class="price">1.500.000₫</span>
+          <span class="per">/ năm</span>
+          
+          <strong class="unlimited">Không giới hạn ảnh</strong>
+        </h2>
+        <p class="promo-desc">✨ Trải nghiệm chỉnh sửa ảnh thương mại thông minh — tất cả trong một ứng dụng duy nhất.</p>
+      </div>
+    </div>
+
+    <div class="promo-right">
+      <div class="event-box">
+        <span class="event-title">🎉 SỰ KIỆN 11.11</span>
+        <span class="countdown" id="countdown">00 ngày 00:00:00</span>
+      </div>
+
+      <a
+        href="https://m.me/HuynhLapDongHaicaoyunMagimir"
+        class="download-btn"
+        target="_blank"
+      >
+        ⬇️ Mua Ngay
+      </a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // ==== Countdown ====
+  const countdownElement = document.getElementById("countdown");
+  // Đặt ngày kết thúc (11/11 năm nay)
+  const eventDate = new Date(new Date().getFullYear(), 10, 11, 0, 0, 0).getTime();
+
+  const timer = setInterval(() => {
+    const now = new Date().getTime();
+    const distance = eventDate - now;
+
+    if (distance < 0) {
+      countdownElement.innerText = "Đã diễn ra!";
+      clearInterval(timer);
+      return;
+    }
+
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    countdownElement.innerText = `${days} ngày ${hours.toString().padStart(2, "0")}:${minutes
+      .toString()
+      .padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
+  }, 1000);
+</script>
+
+  <!-- Popup hiển thị QR -->
+  <div id="qrPopup" class="qr-popup">
+  <div class="qr-popup-content">
+    <span id="qrClose" class="qr-close">&times;</span>
+    <h3>Quét QR để thanh toán</h3>
+    <img src="assets/qr-magimir.png" alt="qr-magimir.png" />
+  </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
+
